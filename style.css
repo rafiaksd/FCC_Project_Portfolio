@@ -65,11 +65,20 @@ nav a:hover{
     text-align: center;
 
     padding: 5px;
+    color: white;
 
     margin-left: auto;
     margin-right: auto;
     border-bottom: 5px solid black;
     margin-bottom: 30px;
+}
+
+#ProjectHeading div{
+    margin-bottom: 10px;
+}
+
+#displayerTag{
+    text-align: center;
 }
 
 .flexbox-container{
