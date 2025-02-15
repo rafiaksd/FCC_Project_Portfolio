@@ -41,7 +41,6 @@ nav a:hover{
     color: white;
 
     font-family: 'Salsa', cursive;
-    font-size: 30px;
     font-style: italic;
 
     display: flex;
@@ -51,11 +50,11 @@ nav a:hover{
 }
 
 #intro h1{
-    font-size:70px;
+    font-size: clamp(40px, 7vw, 70px);
 }
 
 #intro h3{
-    font-size: 40px;
+    font-size: clamp(24px, 5vw, 40px);
     font-style: normal;
     
     color:rgb(255, 208, 0);
